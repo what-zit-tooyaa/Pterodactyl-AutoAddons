@@ -22,7 +22,7 @@ curl --silent \
 }
 
 GITHUB_STATUS_URL="https://www.githubstatus.com"
-SCRIPT_VERSION="$(get_release)"
+SCRIPT_VERSION="main"
 
 # Visual Functions #
 print_brake() {
@@ -100,11 +100,11 @@ bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoAddons
 }
 
 Server_Router_Icons() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoAddons/"${SCRIPT_VERSION}"/addons/version1.x/Server_Router_Icons/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/what-zit-tooyaa/Pterodactyl-AutoAddons/"${SCRIPT_VERSION}"/addons/version1.x/Server_Router_Icons/build.sh)
 }
 
 PMA_Button_NavBar() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoAddons/"${SCRIPT_VERSION}"/addons/version1.x/PMA_Button_NavBar/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/what-zit-tooyaa/Pterodactyl-AutoAddons/"${SCRIPT_VERSION}"/addons/version1.x/PMA_Button_NavBar/build.sh)
 }
 
 PMA_Button_Database_Tab() {
@@ -120,7 +120,7 @@ bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoAddons
 }
 
 Files_In_Editor() {
-bash <(curl -s https://raw.githubusercontent.com/Ferks-FK/Pterodactyl-AutoAddons/"${SCRIPT_VERSION}"/addons/version1.x/Files_In_Editor/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/what-zit-tooyaa/Pterodactyl-AutoAddons/"${SCRIPT_VERSION}"/addons/version1.x/Files_In_Editor/build.sh)
 }
 
 
